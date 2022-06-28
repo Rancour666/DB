@@ -284,15 +284,15 @@ h6 {
   }
 }
 
-@supports (padding-top: clamp( 6.5625rem , 6.5625rem  +  0vw , 6.5625rem )) {
+@supports (padding-top: clamp( 6.25rem , 5.5580357143rem  +  1.1160714286vw , 6.5625rem )) {
   .page__our-partners {
-    padding-top: clamp( 6.5625rem , 6.5625rem  +  0vw , 6.5625rem );
+    padding-top: clamp( 6.25rem , 5.5580357143rem  +  1.1160714286vw , 6.5625rem );
   }
 }
 
-@supports not (padding-top: clamp( 6.5625rem , 6.5625rem  +  0vw , 6.5625rem )) {
+@supports not (padding-top: clamp( 6.25rem , 5.5580357143rem  +  1.1160714286vw , 6.5625rem )) {
   .page__our-partners {
-    padding-top: calc(6.5625rem + 0 * (100vw - 62rem) / 28);
+    padding-top: calc(6.25rem + 0.3125 * (100vw - 62rem) / 28);
   }
 }
 
