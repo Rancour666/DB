@@ -2892,6 +2892,8 @@ h6 {
 .thumbs-story__slider {
   margin-top: -1.25rem;
   margin-bottom: -1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .thumbs-story__wrapper {
@@ -2915,35 +2917,35 @@ h6 {
   background: url("../img/our-works/12.jpg") 0 0/cover no-repeat; }
 
 .thumbs-story .card-tab::before {
+  display: none;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
-  z-index: 1;
+  z-index: -1;
 }
 
 .thumbs-story .card-tab::after {
+  display: none;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
   background: -o-linear-gradient(88.83deg, rgba(2, 57, 87, 0.8) -19.65%, rgba(5, 96, 136, 0.8) 93.67%);
   background: linear-gradient(1.17deg, rgba(2, 57, 87, 0.8) -19.65%, rgba(5, 96, 136, 0.8) 93.67%);
   z-index: 2;
 }
 
 ._tab-active .thumbs-story .card-tab::after {
-  opacity: 1;
+  display: block;
 }
 
 ._tab-active .thumbs-story .card-tab::before {
-  opacity: 1;
+  display: block;
 }
 
 .thumbs-story .card-tab__image-ibg {
@@ -4899,6 +4901,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     margin-bottom: -4.375rem;
   }
 
+  .thumbs-story .card-tab__content {
+    color: #fff;
+  }
+
   .client-story-banner__body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -5524,6 +5530,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .careers__container {
     margin: 0 -0.9375rem;
+  }
+
+  .thumbs-story__slider {
+    padding-left: 0.3125rem;
+    padding-right: 0.3125rem;
   }
 
   .thumbs-story .card-tab {
