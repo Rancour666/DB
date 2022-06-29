@@ -6942,6 +6942,70 @@ PERFORMANCE OF THIS SOFTWARE.
             }));
             flsModules.gallery = galleryItems;
         }
+        const galleriesJames = document.querySelectorAll("[data-gallery-james]");
+        if (galleriesJames.length) {
+            let galleryItems = [];
+            galleriesJames.forEach((gallery => {
+                galleryItems.push({
+                    gallery,
+                    galleryClass: lightgallery_es5(gallery, {
+                        plugins: [ lg_zoom_min, lg_thumbnail_min ],
+                        licenseKey: "7EC452A9-0CFD441C-BD984C7C-17C8456E",
+                        speed: 500,
+                        selector: ".client-gallery-swiper__image-ibg"
+                    })
+                });
+            }));
+            flsModules.gallery = galleryItems;
+        }
+        const galleriesAhmed = document.querySelectorAll("[data-gallery-ahmed]");
+        if (galleriesAhmed.length) {
+            let galleryItems = [];
+            galleriesAhmed.forEach((gallery => {
+                galleryItems.push({
+                    gallery,
+                    galleryClass: lightgallery_es5(gallery, {
+                        plugins: [ lg_zoom_min, lg_thumbnail_min ],
+                        licenseKey: "7EC452A9-0CFD441C-BD984C7C-17C8456E",
+                        speed: 500,
+                        selector: ".client-gallery-swiper__image-ibg"
+                    })
+                });
+            }));
+            flsModules.gallery = galleryItems;
+        }
+        const galleriesMarco = document.querySelectorAll("[data-gallery-marco]");
+        if (galleriesMarco.length) {
+            let galleryItems = [];
+            galleriesMarco.forEach((gallery => {
+                galleryItems.push({
+                    gallery,
+                    galleryClass: lightgallery_es5(gallery, {
+                        plugins: [ lg_zoom_min, lg_thumbnail_min ],
+                        licenseKey: "7EC452A9-0CFD441C-BD984C7C-17C8456E",
+                        speed: 500,
+                        selector: ".client-gallery-swiper__image-ibg"
+                    })
+                });
+            }));
+            flsModules.gallery = galleryItems;
+        }
+        const galleriesProcess = document.querySelectorAll("[data-gallery-process]");
+        if (galleriesProcess.length) {
+            let galleryItems = [];
+            galleriesProcess.forEach((gallery => {
+                galleryItems.push({
+                    gallery,
+                    galleryClass: lightgallery_es5(gallery, {
+                        plugins: [ lg_zoom_min, lg_thumbnail_min ],
+                        licenseKey: "7EC452A9-0CFD441C-BD984C7C-17C8456E",
+                        speed: 500,
+                        selector: ".client-gallery-swiper__image-ibg"
+                    })
+                });
+            }));
+            flsModules.gallery = galleryItems;
+        }
         function DynamicAdapt(type) {
             this.type = type;
         }
