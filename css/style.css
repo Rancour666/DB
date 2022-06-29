@@ -2101,8 +2101,8 @@ h6 {
 .video-module__body::after {
   content: "";
   position: absolute;
-  width: 5.796875rem;
-  height: 5.796875rem;
+  width: 5.875rem;
+  height: 5.875rem;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -5096,9 +5096,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     right: -100%;
     width: 84%;
     height: 100%;
-    -webkit-transition: all 0.3s ease-out 0.3s;
-    -o-transition: all 0.3s ease-out 0.3s;
-    transition: all 0.3s ease-out 0.3s;
+    -webkit-transition: all 0.3s ease 0.1s;
+    -o-transition: all 0.3s ease 0.1s;
+    transition: all 0.3s ease 0.1s;
     overflow: auto;
     background: -o-linear-gradient(345.42deg, #056088 10.57%, #09A7CA 96.62%);
     background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
@@ -5126,9 +5126,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     width: 84%;
     background: -o-linear-gradient(63.53deg, #023957 22.58%, #056088 94.16%);
     background: linear-gradient(26.47deg, #023957 22.58%, #056088 94.16%);
-    -webkit-transition: all 0.3s ease-in 0s;
-    -o-transition: all 0.3s ease-in 0s;
-    transition: all 0.3s ease-in 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     -webkit-box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.3);
             box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.3);
     z-index: 5;
