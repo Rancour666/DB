@@ -5016,7 +5016,6 @@
             if (document.querySelector(".thumbs-story__slider")) new core(".thumbs-story__slider", {
                 modules: [ Thumb ],
                 slidesPerView: 3,
-                centeredSlides: false,
                 spaceBetween: 30,
                 autoHeight: false,
                 speed: 500,
